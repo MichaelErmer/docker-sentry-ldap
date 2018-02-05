@@ -2,6 +2,12 @@
 # you can inherit and tweak settings to your hearts content.
 
 # For Docker, the following environment variables are supported:
+# AUTH_LDAP_SERVER_URI=ldap://yourserver
+# AUTH_LDAP_BIND_DN=userid=sentry, ou=services, o=company, dc=group, dc=de 
+# AUTH_LDAP_BIND_PASSWORD=somepassword
+# AUTH_LDAP_USER_SEARCH_DN=ou=users, o=company, dc=group, dc=de
+# AUTH_LDAP_USER_SEARCH_QUERY=(cn=%(user)s)
+
 #  SENTRY_POSTGRES_HOST
 #  SENTRY_POSTGRES_PORT
 #  SENTRY_DB_NAME
