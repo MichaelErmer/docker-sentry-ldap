@@ -1,4 +1,4 @@
-FROM sentry:8.22.0
+FROM sentry:9
 
 RUN mkdir -p /tmp/
 RUN apt-get update && apt-get install -y libsasl2-dev python-dev libldap2-dev libssl-dev
